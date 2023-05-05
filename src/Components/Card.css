@@ -1,0 +1,34 @@
+.card{
+    width: 30rem;
+
+    background-color: hsl(217, 19%, 24%) !important;
+    
+}
+
+.quote{
+    font-size: 28px !important;
+    color: hsl(193, 38%, 86%);
+}
+
+.card-title{
+    font-size: 0.7rem;
+    color: hsl(150, 100%, 66%);
+}
+
+.btn-container{
+    position: relative;
+    top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.btn-reset{
+    background-color:hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: 15px;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-reset:hover{
+    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%), 0 0 80px hsl(150, 100%, 66%);
+}
